@@ -22,3 +22,8 @@ my_data = (x * x for x in [1, 2, 3])
 
 for i in my_data:
     print(i)
+
+
+# you can print like a list in a line
+
+print(list(my_data))
