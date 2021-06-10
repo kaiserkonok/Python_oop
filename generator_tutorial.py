@@ -14,3 +14,11 @@ my_nums = square_numbers(data)
 
 for num in my_nums:
     print(num)
+
+
+# another example
+
+my_data = (x * x for x in [1, 2, 3])
+
+for i in my_data:
+    print(i)
